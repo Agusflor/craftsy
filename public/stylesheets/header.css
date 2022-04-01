@@ -5,24 +5,29 @@ header{
     padding: 10px;
     width: 100%;
 }
+
 .header__menu{
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-.header__menu__sitio{
+
+.header__menu__sitios{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
+
 .header__menu__usuarios{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
 }
+
 header a{
     text-transform: uppercase;
 }
+
 /*tablets*/
 
 @media(min-width:768px){
@@ -33,15 +38,15 @@ header a{
     .header__logo{
         margin-right: 20px;
     }
-    .header li{
-        margin: 0 5px;
+    header li{
+        margin:0 5px;
     }
     .header__menu{
         flex-direction: row;
         justify-content: space-between;
-        width: 100px;
+        width: 100%;
     }
-    .header__menu__sitio{
+    .header__menu__sitios{
         flex-direction: row;
         margin-top: 0px;
     }

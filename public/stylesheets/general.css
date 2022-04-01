@@ -3,7 +3,7 @@
     font-family: "Crenzo";
     font-family: "normal";
     font-weight: "normal";
-};
+}
 
 *{
     box-sizing: border-box;
@@ -12,7 +12,8 @@
 }
 body{
  background-image: url(/images/bg-2.png);
- font-family: "Roboto";
+ font-family: Roboto;
+
 }
 a{
     text-decoration: none;
