@@ -1,0 +1,59 @@
+header{
+    background-color: var(--colorRojo);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+.header_menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.header_menu_sitio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.header_menu_usuarios{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+header a{
+    text-transform: uppercase;
+}
+/*tablets*/
+
+@media(min-width:768px){
+    header{
+        flex-direction: row;
+        align-items: center;
+    }
+    .header_logo{
+        margin-right: 20px;
+    }
+    .header li{
+        margin: 0 5px;
+    }
+    .header_menu{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100px;
+    }
+    .header_menu_sitio{
+        flex-direction: row;
+        margin-top: 0px;
+    }
+    .header_menu_usuarios{
+        flex-direction: row;
+        margin-top: 0px;
+    }
+}
+
+/*laptops*/
+
+@media(min-width:1024px){
+    
+}
+
