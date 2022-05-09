@@ -71,9 +71,57 @@
     margin: 10px 0;
     width: 100%;
 }
+/*mobile l*/
 
 @media (min-width:425px) {
+    .index main{
+    padding: 0 30px;
+    }
+}
+
+/*tablet*/
+@media (min-width:768px) {
+    .index main{
+        padding: 0 50px;
+        }
+
+
+.index__products{
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.index aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.index__tutorials, .index__publicidad{
+    width: 320px;
+}
+}
+
+
+/*laptops*/
+@media (min-width:1140px) {
+    .index{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .index main{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .index__products{
+        width: 800px;
+    }
     .index__products__product{
-        width: 380px
+        width: 380px;
+    }
+    .index aside{
+        flex-direction: column;
+        justify-content: flex-start;
     }
 }
